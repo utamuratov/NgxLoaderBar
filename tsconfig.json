@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-loader-bar": [
+        "dist/ngx-loader-bar/ngx-loader-bar",
+        "dist/ngx-loader-bar"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
